@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Foutopsporing_1___TestLogischeFouten</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\zee0.jpg" />
+    <None Remove="images\zee1.jpg" />
+    <None Remove="images\zee2.jpg" />
+    <None Remove="images\zee3.jpg" />
+    <None Remove="images\zee4.jpg" />
+    <None Remove="images\zee5.jpg" />
+    <None Remove="images\zee6.jpg" />
+    <None Remove="images\zee7.jpg" />
+    <None Remove="images\zee8.jpg" />
+    <None Remove="images\zee9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\zee0.jpg" />
+    <Resource Include="images\zee1.jpg" />
+    <Resource Include="images\zee2.jpg" />
+    <Resource Include="images\zee3.jpg" />
+    <Resource Include="images\zee4.jpg" />
+    <Resource Include="images\zee5.jpg" />
+    <Resource Include="images\zee6.jpg" />
+    <Resource Include="images\zee7.jpg" />
+    <Resource Include="images\zee8.jpg" />
+    <Resource Include="images\zee9.jpg" />
+  </ItemGroup>
+
+</Project>
